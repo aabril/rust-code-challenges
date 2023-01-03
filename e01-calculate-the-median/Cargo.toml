@@ -1,5 +1,5 @@
 [package]
-name = "rust-code-challenges"
+name = "e01-calculate-the-median"
 version = "0.1.0"
 edition = "2021"
 
