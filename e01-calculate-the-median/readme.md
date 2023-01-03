@@ -61,4 +61,11 @@ assert_eq!(median(list), None);
 ---
 
 
+## Additonal info
+
+When using `cargo watch`, to ensure it's checking (some kind of rusty linter) and then try the tests, you must use the following command: 
+
+```
+cargo watch -x check -x test
+```
 
