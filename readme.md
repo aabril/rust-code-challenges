@@ -3,7 +3,7 @@
 This is a series of Code Challenges taken from the LinkedIn course from Tim McNamara.
 
 - [X] : Calculate the median                                              - 03jan2022
-- [ ] : Find unique items
+- [X] : Find unique items                                                 - 04jan2022
 - [ ] : Print any text type
 - [ ] : Case-insensitive sort
 - [ ] : Convert text to Morse Code
