@@ -1,4 +1,5 @@
 fn unique(mut list: Vec<i32>) -> Vec<i32>{
+    list.sort();
     list.dedup();
     list
 }
