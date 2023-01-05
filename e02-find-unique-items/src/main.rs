@@ -1,9 +1,18 @@
-fn unique(mut list: Vec<i32>) -> Vec<i32>{
+// Basic
+// 
+// fn unique(mut list: Vec<i32>) -> Vec<i32>{
+//     list.sort();
+//     list.dedup();
+//     list
+// }
+
+// Using Generics
+// 
+fn unique<T:Ord>(mut list: Vec<T>) -> Vec<T> {
     list.sort();
     list.dedup();
     list
 }
-
 
 fn main() {
     let input: Vec<i32> = vec![2,1,1];
@@ -13,7 +22,7 @@ fn main() {
 
 #[test]
 fn empty_list() {
-    let input = vec![];
+    let input: Vec<i64> = vec![];
     let expected_output = vec![];
     let actual_output = unique(input);
     assert_eq!(actual_output, expected_output);
